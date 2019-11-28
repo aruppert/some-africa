@@ -3,7 +3,8 @@ const defaultTheme = {
     background: "#FEB825",
     primary: "#1B6E0D",
     secondary: "#FF140B",
-    text: "#4A4B4C"
+    text: "#2A2B2C"
+
   }
 };
 export default defaultTheme;
