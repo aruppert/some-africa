@@ -4,6 +4,7 @@ import { ThemeProvider } from "emotion-theming";
 import defaultTheme from "./themes/default";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ButtonNavigation from "./components/ButtonNavigation";
+
 import styled from "@emotion/styled";
 import Title from "./components/Title";
 import CountryList from "./components/CountryList";
@@ -30,11 +31,13 @@ const Footer = styled.div`
   background: ${props => props.theme.colors.primary};
 `;
 
+
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles />
       <Router>
+
         <Container>
           <Header>
             <Title>Some Africa</Title>
@@ -56,6 +59,7 @@ function App() {
             <ButtonNavigation />
           </Footer>
         </Container>
+
       </Router>
     </ThemeProvider>
   );
