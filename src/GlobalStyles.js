@@ -13,7 +13,9 @@ export default function GlobalStyles() {
 
         body {
           margin: 0;
+
           font-size: 26px;
+
           font-family: "Quicksand", sans-serif;
           background: ${theme.colors.background};
           color: ${theme.colors.text};
